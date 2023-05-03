@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_AndreTurismoApp", "Projeto_AndreTurismoApp\Projeto_AndreTurismoApp.csproj", "{AAF1772F-F2C9-4588-9F56-56240F52497A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_AndreTurismoApp.Models", "Projeto_AndreTurismoApp.Models\Projeto_AndreTurismoApp.Models.csproj", "{985E0701-63D7-48D7-8EDE-CCCD0BE6A292}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_AndreTurismoApp.Services", "Projeto_AndreTurismoApp.Services\Projeto_AndreTurismoApp.Services.csproj", "{3BC5460E-BC80-49C9-B2F1-9B72949DEF26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_AndreTurismoApp.Repositories", "Projeto_AndreTurismoApp.Repositories\Projeto_AndreTurismoApp.Repositories.csproj", "{9DFC66C6-1304-4ED6-8557-A2D661C96AEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_AndreTurismoApp.CityService", "Projeto_AndreTurismoApp.CityService\Projeto_AndreTurismoApp.CityService.csproj", "{1A3E1EE0-3E12-43B9-A29C-01B2DC3466C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_AndreTurismoApp.AddressService", "Projeto_AndreTurismoApp.AddressService\Projeto_AndreTurismoApp.AddressService.csproj", "{BFC29108-098E-4763-875B-DA8FA569DDF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_AndreTurismoApp.CustomerService", "Projeto_AndreTurismoApp.CustomerService\Projeto_AndreTurismoApp.CustomerService.csproj", "{E26763E2-EEF6-4D90-A41B-A1DB64AFBB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_AndreTurismoApp.TicketService", "Projeto_AndreTurismoApp.TicketService\Projeto_AndreTurismoApp.TicketService.csproj", "{15927A94-9951-440E-A3D9-A82EB5F15B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_AndreTurismoApp.HotelService", "Projeto_AndreTurismoApp.HotelService\Projeto_AndreTurismoApp.HotelService.csproj", "{8DC484C1-1C54-40F4-A61D-5A22E82D5CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_AndreTurismoApp.PackageService", "Projeto_AndreTurismoApp.PackageService\Projeto_AndreTurismoApp.PackageService.csproj", "{94B3C79E-3213-433A-AA38-65B7AF148D64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAF1772F-F2C9-4588-9F56-56240F52497A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF1772F-F2C9-4588-9F56-56240F52497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF1772F-F2C9-4588-9F56-56240F52497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF1772F-F2C9-4588-9F56-56240F52497A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985E0701-63D7-48D7-8EDE-CCCD0BE6A292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985E0701-63D7-48D7-8EDE-CCCD0BE6A292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985E0701-63D7-48D7-8EDE-CCCD0BE6A292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985E0701-63D7-48D7-8EDE-CCCD0BE6A292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC5460E-BC80-49C9-B2F1-9B72949DEF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC5460E-BC80-49C9-B2F1-9B72949DEF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC5460E-BC80-49C9-B2F1-9B72949DEF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC5460E-BC80-49C9-B2F1-9B72949DEF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFC66C6-1304-4ED6-8557-A2D661C96AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFC66C6-1304-4ED6-8557-A2D661C96AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFC66C6-1304-4ED6-8557-A2D661C96AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFC66C6-1304-4ED6-8557-A2D661C96AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3E1EE0-3E12-43B9-A29C-01B2DC3466C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3E1EE0-3E12-43B9-A29C-01B2DC3466C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3E1EE0-3E12-43B9-A29C-01B2DC3466C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3E1EE0-3E12-43B9-A29C-01B2DC3466C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC29108-098E-4763-875B-DA8FA569DDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC29108-098E-4763-875B-DA8FA569DDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC29108-098E-4763-875B-DA8FA569DDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC29108-098E-4763-875B-DA8FA569DDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26763E2-EEF6-4D90-A41B-A1DB64AFBB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26763E2-EEF6-4D90-A41B-A1DB64AFBB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26763E2-EEF6-4D90-A41B-A1DB64AFBB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26763E2-EEF6-4D90-A41B-A1DB64AFBB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15927A94-9951-440E-A3D9-A82EB5F15B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15927A94-9951-440E-A3D9-A82EB5F15B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15927A94-9951-440E-A3D9-A82EB5F15B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15927A94-9951-440E-A3D9-A82EB5F15B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC484C1-1C54-40F4-A61D-5A22E82D5CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC484C1-1C54-40F4-A61D-5A22E82D5CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC484C1-1C54-40F4-A61D-5A22E82D5CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC484C1-1C54-40F4-A61D-5A22E82D5CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B3C79E-3213-433A-AA38-65B7AF148D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B3C79E-3213-433A-AA38-65B7AF148D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B3C79E-3213-433A-AA38-65B7AF148D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B3C79E-3213-433A-AA38-65B7AF148D64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E76C59F-8A1C-439C-AE87-C48E5D691E0C}
+	EndGlobalSection
+EndGlobal
